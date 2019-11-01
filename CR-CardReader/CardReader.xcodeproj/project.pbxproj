@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29BA44FA950E3FBD8FE32C12 /* Pods_CardReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F3B6F7F9F646042455EF2E /* Pods_CardReader.framework */; };
+		8E2075D22305CD48002A1970 /* ScanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2075D12305CD48002A1970 /* ScanScreen.swift */; };
+		8E2A062923055E9E00C10513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A062823055E9E00C10513 /* AppDelegate.swift */; };
+		8E2A062B23055E9E00C10513 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A062A23055E9E00C10513 /* SceneDelegate.swift */; };
+		8E2A062F23055EA000C10513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A062E23055EA000C10513 /* Assets.xcassets */; };
+		8E2A063223055EA000C10513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A063123055EA000C10513 /* Preview Assets.xcassets */; };
+		8E2A063523055EA000C10513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A063323055EA000C10513 /* LaunchScreen.storyboard */; };
+		8E2A063F2305653200C10513 /* ImagePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A063E2305653200C10513 /* ImagePickerScreen.swift */; };
+		8E2A06412305655F00C10513 /* ImageRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A06402305655F00C10513 /* ImageRecognition.swift */; };
+		8E2A809723056B7800ABAA8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A809623056B7800ABAA8B /* GoogleService-Info.plist */; };
+		8E2A809923056E9700ABAA8B /* InitialTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A809823056E9700ABAA8B /* InitialTabbedView.swift */; };
+		8E2A809B23057DA600ABAA8B /* ImageDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A809A23057DA600ABAA8B /* ImageDetailsScreen.swift */; };
+		8E2A809F23058F4600ABAA8B /* CustomContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A809E23058F4600ABAA8B /* CustomContact.swift */; };
+		8E2A80A22305AAFA00ABAA8B /* SavingToPhoneContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A80A12305AAFA00ABAA8B /* SavingToPhoneContacts.swift */; };
+		8E7011CF2309AEE000DC921E /* ContactCreatedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7011CE2309AEE000DC921E /* ContactCreatedScreen.swift */; };
+		8E8990B72309C06500395E83 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8990B62309C06500395E83 /* SettingsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E17F374FB2590E43ABBD301 /* Pods-CardReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.debug.xcconfig"; path = "Target Support Files/Pods-CardReader/Pods-CardReader.debug.xcconfig"; sourceTree = "<group>"; };
+		41F3B6F7F9F646042455EF2E /* Pods_CardReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2075D12305CD48002A1970 /* ScanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanScreen.swift; sourceTree = "<group>"; };
+		8E2A062523055E9E00C10513 /* CardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2A062823055E9E00C10513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E2A062A23055E9E00C10513 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E2A062E23055EA000C10513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2A063123055EA000C10513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E2A063423055EA000C10513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2A063623055EA000C10513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2A063E2305653200C10513 /* ImagePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerScreen.swift; sourceTree = "<group>"; };
+		8E2A06402305655F00C10513 /* ImageRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognition.swift; sourceTree = "<group>"; };
+		8E2A809623056B7800ABAA8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E2A809823056E9700ABAA8B /* InitialTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTabbedView.swift; sourceTree = "<group>"; };
+		8E2A809A23057DA600ABAA8B /* ImageDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsScreen.swift; sourceTree = "<group>"; };
+		8E2A809E23058F4600ABAA8B /* CustomContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContact.swift; sourceTree = "<group>"; };
+		8E2A80A12305AAFA00ABAA8B /* SavingToPhoneContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingToPhoneContacts.swift; sourceTree = "<group>"; };
+		8E7011CE2309AEE000DC921E /* ContactCreatedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCreatedScreen.swift; sourceTree = "<group>"; };
+		8E8990B62309C06500395E83 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A5A5925E171D56F4AABFF65A /* Pods-CardReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.release.xcconfig"; path = "Target Support Files/Pods-CardReader/Pods-CardReader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2A062223055E9E00C10513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA44FA950E3FBD8FE32C12 /* Pods_CardReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B95932D780F4BC151DC03B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F3B6F7F9F646042455EF2E /* Pods_CardReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E2A061C23055E9E00C10513 = {
+			isa = PBXGroup;
+			children = (
+				8E2A80A02305AADB00ABAA8B /* SavingToContacts */,
+				8E2A809D23058F2900ABAA8B /* DataModel */,
+				8E2A809C2305851900ABAA8B /* ImageTextRecognition */,
+				8E2A063D2305650800C10513 /* Screens */,
+				8E2A062723055E9E00C10513 /* CardReader */,
+				8E2A062623055E9E00C10513 /* Products */,
+				ED81D2025F2698CCE74D87BB /* Pods */,
+				0B95932D780F4BC151DC03B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2A062623055E9E00C10513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A062523055E9E00C10513 /* CardReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2A062723055E9E00C10513 /* CardReader */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A062823055E9E00C10513 /* AppDelegate.swift */,
+				8E2A062A23055E9E00C10513 /* SceneDelegate.swift */,
+				8E2A062E23055EA000C10513 /* Assets.xcassets */,
+				8E2A063323055EA000C10513 /* LaunchScreen.storyboard */,
+				8E2A063623055EA000C10513 /* Info.plist */,
+				8E2A809623056B7800ABAA8B /* GoogleService-Info.plist */,
+				8E2A063023055EA000C10513 /* Preview Content */,
+			);
+			path = CardReader;
+			sourceTree = "<group>";
+		};
+		8E2A063023055EA000C10513 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A063123055EA000C10513 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E2A063D2305650800C10513 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A809823056E9700ABAA8B /* InitialTabbedView.swift */,
+				8E2A063E2305653200C10513 /* ImagePickerScreen.swift */,
+				8E2A809A23057DA600ABAA8B /* ImageDetailsScreen.swift */,
+				8E2075D12305CD48002A1970 /* ScanScreen.swift */,
+				8E7011CE2309AEE000DC921E /* ContactCreatedScreen.swift */,
+				8E8990B62309C06500395E83 /* SettingsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8E2A809C2305851900ABAA8B /* ImageTextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A06402305655F00C10513 /* ImageRecognition.swift */,
+			);
+			path = ImageTextRecognition;
+			sourceTree = "<group>";
+		};
+		8E2A809D23058F2900ABAA8B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A809E23058F4600ABAA8B /* CustomContact.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		8E2A80A02305AADB00ABAA8B /* SavingToContacts */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A80A12305AAFA00ABAA8B /* SavingToPhoneContacts.swift */,
+			);
+			path = SavingToContacts;
+			sourceTree = "<group>";
+		};
+		ED81D2025F2698CCE74D87BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E17F374FB2590E43ABBD301 /* Pods-CardReader.debug.xcconfig */,
+				A5A5925E171D56F4AABFF65A /* Pods-CardReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2A062423055E9E00C10513 /* CardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2A063923055EA000C10513 /* Build configuration list for PBXNativeTarget "CardReader" */;
+			buildPhases = (
+				C4CE24E827AFA650545345F6 /* [CP] Check Pods Manifest.lock */,
+				8E2A062123055E9E00C10513 /* Sources */,
+				8E2A062223055E9E00C10513 /* Frameworks */,
+				8E2A062323055E9E00C10513 /* Resources */,
+				3E6B5BF8B6DE64708AE412FC /* [CP] Embed Pods Frameworks */,
+				817279AAAD42B02BB458EE22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardReader;
+			productName = CardReader;
+			productReference = 8E2A062523055E9E00C10513 /* CardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2A061D23055E9E00C10513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "sachin jeph";
+				TargetAttributes = {
+					8E2A062423055E9E00C10513 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 8E2A062023055E9E00C10513 /* Build configuration list for PBXProject "CardReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2A061C23055E9E00C10513;
+			productRefGroup = 8E2A062623055E9E00C10513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2A062423055E9E00C10513 /* CardReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2A062323055E9E00C10513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A063523055EA000C10513 /* LaunchScreen.storyboard in Resources */,
+				8E2A809723056B7800ABAA8B /* GoogleService-Info.plist in Resources */,
+				8E2A063223055EA000C10513 /* Preview Assets.xcassets in Resources */,
+				8E2A062F23055EA000C10513 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E6B5BF8B6DE64708AE412FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817279AAAD42B02BB458EE22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardReader/Pods-CardReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CE24E827AFA650545345F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2A062123055E9E00C10513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A809B23057DA600ABAA8B /* ImageDetailsScreen.swift in Sources */,
+				8E7011CF2309AEE000DC921E /* ContactCreatedScreen.swift in Sources */,
+				8E2A062923055E9E00C10513 /* AppDelegate.swift in Sources */,
+				8E2A80A22305AAFA00ABAA8B /* SavingToPhoneContacts.swift in Sources */,
+				8E2A809F23058F4600ABAA8B /* CustomContact.swift in Sources */,
+				8E2A06412305655F00C10513 /* ImageRecognition.swift in Sources */,
+				8E2075D22305CD48002A1970 /* ScanScreen.swift in Sources */,
+				8E8990B72309C06500395E83 /* SettingsScreen.swift in Sources */,
+				8E2A809923056E9700ABAA8B /* InitialTabbedView.swift in Sources */,
+				8E2A062B23055E9E00C10513 /* SceneDelegate.swift in Sources */,
+				8E2A063F2305653200C10513 /* ImagePickerScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E2A063323055EA000C10513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2A063423055EA000C10513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E2A063723055EA000C10513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E2A063823055EA000C10513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2A063A23055EA000C10513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E17F374FB2590E43ABBD301 /* Pods-CardReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "CardReader/Preview\\ Content";
+				DEVELOPMENT_TEAM = 34XRA32US9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Think.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2A063B23055EA000C10513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A5925E171D56F4AABFF65A /* Pods-CardReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "CardReader/Preview\\ Content";
+				DEVELOPMENT_TEAM = 34XRA32US9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Think.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2A062023055E9E00C10513 /* Build configuration list for PBXProject "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A063723055EA000C10513 /* Debug */,
+				8E2A063823055EA000C10513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2A063923055EA000C10513 /* Build configuration list for PBXNativeTarget "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A063A23055EA000C10513 /* Debug */,
+				8E2A063B23055EA000C10513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2A061D23055E9E00C10513 /* Project object */;
+}
